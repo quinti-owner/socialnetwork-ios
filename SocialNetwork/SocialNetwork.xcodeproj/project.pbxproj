@@ -17,6 +17,7 @@
 		15BFA89E28D2B03E00A50FD0 /* SocialNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFA89D28D2B03E00A50FD0 /* SocialNetworkTests.swift */; };
 		15BFA8A828D2B03E00A50FD0 /* SocialNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFA8A728D2B03E00A50FD0 /* SocialNetworkUITests.swift */; };
 		15BFA8AA28D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFA8A928D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift */; };
+		15DABE3128D709E600828562 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DABE3028D709E600828562 /* Log.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		15BFA8A328D2B03E00A50FD0 /* SocialNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BFA8A728D2B03E00A50FD0 /* SocialNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITests.swift; sourceTree = "<group>"; };
 		15BFA8A928D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15DABE3028D709E600828562 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		15BFA88228D2B03900A50FD0 /* SocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				15DABE2F28D709BB00828562 /* common */,
 				15BFA88328D2B03900A50FD0 /* AppDelegate.swift */,
 				15BFA88528D2B03900A50FD0 /* SceneDelegate.swift */,
 				15BFA88728D2B03900A50FD0 /* ViewController.swift */,
@@ -128,6 +131,14 @@
 				15BFA8A928D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift */,
 			);
 			path = SocialNetworkUITests;
+			sourceTree = "<group>";
+		};
+		15DABE2F28D709BB00828562 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				15DABE3028D709E600828562 /* Log.swift */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 			files = (
 				15BFA88828D2B03900A50FD0 /* ViewController.swift in Sources */,
 				15BFA88428D2B03900A50FD0 /* AppDelegate.swift in Sources */,
+				15DABE3128D709E600828562 /* Log.swift in Sources */,
 				15BFA88628D2B03900A50FD0 /* SceneDelegate.swift in Sources */,
 				15BFA88E28D2B03900A50FD0 /* SocialNetwork.xcdatamodeld in Sources */,
 			);
