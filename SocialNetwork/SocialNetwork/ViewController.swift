@@ -6,6 +6,7 @@
 //
 
 import UIKit
+//アッ中さんです。
 
 class ViewController: UIViewController {
     
