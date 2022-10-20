@@ -431,6 +431,9 @@
 		15BFA8A828D2B03E00A50FD0 /* SocialNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFA8A728D2B03E00A50FD0 /* SocialNetworkUITests.swift */; };
 		15BFA8AA28D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFA8A928D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift */; };
 		15DABE3128D709E600828562 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DABE3028D709E600828562 /* Log.swift */; };
+		3CDF0FEE28F3EEAC000AB349 /* AccessTokenKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF0FED28F3EEAC000AB349 /* AccessTokenKeyChain.swift */; };
+		3CDF0FF028F670B8000AB349 /* RefreshTokenKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF0FEF28F670B8000AB349 /* RefreshTokenKeyChain.swift */; };
+		3CDF0FF228F67242000AB349 /* SecretTokenKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF0FF128F67242000AB349 /* SecretTokenKeyChain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -879,6 +882,9 @@
 		15BFA8A728D2B03E00A50FD0 /* SocialNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITests.swift; sourceTree = "<group>"; };
 		15BFA8A928D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15DABE3028D709E600828562 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		3CDF0FED28F3EEAC000AB349 /* AccessTokenKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenKeyChain.swift; sourceTree = "<group>"; };
+		3CDF0FEF28F670B8000AB349 /* RefreshTokenKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenKeyChain.swift; sourceTree = "<group>"; };
+		3CDF0FF128F67242000AB349 /* SecretTokenKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretTokenKeyChain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2562,6 +2568,9 @@
 				15BFA88328D2B03900A50FD0 /* AppDelegate.swift */,
 				15BFA88528D2B03900A50FD0 /* SceneDelegate.swift */,
 				15BFA88728D2B03900A50FD0 /* ViewController.swift */,
+				3CDF0FED28F3EEAC000AB349 /* AccessTokenKeyChain.swift */,
+				3CDF0FEF28F670B8000AB349 /* RefreshTokenKeyChain.swift */,
+				3CDF0FF128F67242000AB349 /* SecretTokenKeyChain.swift */,
 				15BFA88928D2B03900A50FD0 /* Main.storyboard */,
 				15BFA88F28D2B03E00A50FD0 /* Assets.xcassets */,
 				15BFA89128D2B03E00A50FD0 /* LaunchScreen.storyboard */,
@@ -2760,6 +2769,7 @@
 				15B7EB2C28F2E20300F9F97C /* FavoriteBbsListProfile.swift in Sources */,
 				15B7EB8928F2E20300F9F97C /* SmilListListPhotoUrls.swift in Sources */,
 				15B7EB9F28F2E20300F9F97C /* DenyListListPhotoUrls.swift in Sources */,
+				3CDF0FF228F67242000AB349 /* SecretTokenKeyChain.swift in Sources */,
 				15B7ED3828F2E28800F9F97C /* SmileDeleteData.swift in Sources */,
 				15B7EB4E28F2E20300F9F97C /* ReRegister.swift in Sources */,
 				15B7ED3328F2E28800F9F97C /* MytypeListListData.swift in Sources */,
@@ -2858,6 +2868,7 @@
 				15B7EB9628F2E20300F9F97C /* NotificationList.swift in Sources */,
 				15B7ED5528F2E28800F9F97C /* InformationpushlistData.swift in Sources */,
 				15B7EB2E28F2E20300F9F97C /* ProfilePhotoList.swift in Sources */,
+				3CDF0FEE28F3EEAC000AB349 /* AccessTokenKeyChain.swift in Sources */,
 				15B7ECC528F2E28700F9F97C /* TalkDeleteResultFilesData.swift in Sources */,
 				15B7ED3528F2E28800F9F97C /* MytypeListListHeigtData.swift in Sources */,
 				15B7ECDF28F2E28700F9F97C /* ProfileDeleteRelationshipData.swift in Sources */,
@@ -3067,6 +3078,7 @@
 				15B7EB9228F2E20300F9F97C /* TalkCommentHistoryCommentId.swift in Sources */,
 				15B7EB4228F2E20300F9F97C /* ProfileSerchMemberPhotoUrls.swift in Sources */,
 				15B7ED2928F2E28800F9F97C /* TalkCommentHistoryData.swift in Sources */,
+				3CDF0FF028F670B8000AB349 /* RefreshTokenKeyChain.swift in Sources */,
 				15B7ECF828F2E28700F9F97C /* MailListMailData.swift in Sources */,
 				15B7ED3E28F2E28800F9F97C /* MailBoxMemberMemoData.swift in Sources */,
 				15B7ECD528F2E28700F9F97C /* ProfileDeleteData.swift in Sources */,
