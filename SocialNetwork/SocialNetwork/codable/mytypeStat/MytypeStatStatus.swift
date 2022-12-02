@@ -1,0 +1,15 @@
+//
+//  MytypeStat.swift
+//  SocialNetwork
+//
+//  Created by matsumotoyuina on 2022/09/21.
+//
+
+import Foundation
+
+struct MytypeStatStatus: Codable {
+    var status: String
+    var from_member: [FromMember]
+    var from_partner: [FromPartner]
+
+}
