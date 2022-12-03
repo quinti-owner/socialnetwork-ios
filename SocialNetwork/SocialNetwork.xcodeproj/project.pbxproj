@@ -431,6 +431,8 @@
 		15BFA8A828D2B03E00A50FD0 /* SocialNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFA8A728D2B03E00A50FD0 /* SocialNetworkUITests.swift */; };
 		15BFA8AA28D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFA8A928D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift */; };
 		15DABE3128D709E600828562 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DABE3028D709E600828562 /* Log.swift */; };
+		3CF7D17D29067E7200604D95 /* TermsOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7D17C29067E7200604D95 /* TermsOfService.swift */; };
+		3CF7D17F2908EDD600604D95 /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7D17E2908EDD600604D95 /* PrivacyPolicy.swift */; };
 		3CDF0FEE28F3EEAC000AB349 /* AccessTokenKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF0FED28F3EEAC000AB349 /* AccessTokenKeyChain.swift */; };
 		3CDF0FF028F670B8000AB349 /* RefreshTokenKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF0FEF28F670B8000AB349 /* RefreshTokenKeyChain.swift */; };
 		3CDF0FF228F67242000AB349 /* SecretTokenKeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF0FF128F67242000AB349 /* SecretTokenKeyChain.swift */; };
@@ -882,6 +884,9 @@
 		15BFA8A728D2B03E00A50FD0 /* SocialNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITests.swift; sourceTree = "<group>"; };
 		15BFA8A928D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15DABE3028D709E600828562 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		3C403B492902652E0024CDD2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3CF7D17C29067E7200604D95 /* TermsOfService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfService.swift; sourceTree = "<group>"; };
+		3CF7D17E2908EDD600604D95 /* PrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy.swift; sourceTree = "<group>"; };
 		3CDF0FED28F3EEAC000AB349 /* AccessTokenKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenKeyChain.swift; sourceTree = "<group>"; };
 		3CDF0FEF28F670B8000AB349 /* RefreshTokenKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenKeyChain.swift; sourceTree = "<group>"; };
 		3CDF0FF128F67242000AB349 /* SecretTokenKeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretTokenKeyChain.swift; sourceTree = "<group>"; };
@@ -2546,6 +2551,7 @@
 				15BFA89C28D2B03E00A50FD0 /* SocialNetworkTests */,
 				15BFA8A628D2B03E00A50FD0 /* SocialNetworkUITests */,
 				15BFA88128D2B03900A50FD0 /* Products */,
+				3C403B482902652D0024CDD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2572,6 +2578,8 @@
 				3CDF0FEF28F670B8000AB349 /* RefreshTokenKeyChain.swift */,
 				3CDF0FF128F67242000AB349 /* SecretTokenKeyChain.swift */,
 				15BFA88928D2B03900A50FD0 /* Main.storyboard */,
+				3CF7D17C29067E7200604D95 /* TermsOfService.swift */,
+				3CF7D17E2908EDD600604D95 /* PrivacyPolicy.swift */,
 				15BFA88F28D2B03E00A50FD0 /* Assets.xcassets */,
 				15BFA89128D2B03E00A50FD0 /* LaunchScreen.storyboard */,
 				15BFA89428D2B03E00A50FD0 /* Info.plist */,
@@ -2603,6 +2611,14 @@
 				15DABE3028D709E600828562 /* Log.swift */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		3C403B482902652D0024CDD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C403B492902652E0024CDD2 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2837,6 +2853,7 @@
 				15B7EB1D28F2E20300F9F97C /* ProfileDetallListBbsPure.swift in Sources */,
 				15B7EB8F28F2E20300F9F97C /* BbsArea.swift in Sources */,
 				15B7EB4828F2E20300F9F97C /* MailBoxMemberPhotoUrls.swift in Sources */,
+				3CF7D17F2908EDD600604D95 /* PrivacyPolicy.swift in Sources */,
 				15B7ED2028F2E28800F9F97C /* ErrorsData.swift in Sources */,
 				15B7EAD828F2E20300F9F97C /* InformationList.swift in Sources */,
 				15B7ED7628F2E28800F9F97C /* ProfileDetallListData.swift in Sources */,
@@ -3023,6 +3040,7 @@
 				15B7ED6828F2E28800F9F97C /* SmilListListData.swift in Sources */,
 				15B7ED2F28F2E28800F9F97C /* AccessData.swift in Sources */,
 				15B7EB0028F2E20300F9F97C /* FotprintList.swift in Sources */,
+				3CF7D17D29067E7200604D95 /* TermsOfService.swift in Sources */,
 				15B7EB4B28F2E20300F9F97C /* Notiflcation.swift in Sources */,
 				15B7EAD628F2E20300F9F97C /* InformationErrorsError.swift in Sources */,
 				15B7ECCF28F2E28700F9F97C /* PrefectureData.swift in Sources */,
