@@ -431,8 +431,12 @@
 		15BFA8A828D2B03E00A50FD0 /* SocialNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFA8A728D2B03E00A50FD0 /* SocialNetworkUITests.swift */; };
 		15BFA8AA28D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BFA8A928D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift */; };
 		15DABE3128D709E600828562 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DABE3028D709E600828562 /* Log.swift */; };
+		3C635095291A3C5F00296FE0 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C635094291A3C5F00296FE0 /* SignUp.swift */; };
+		3CA1AF82291CF633004F5C25 /* Abc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1AF81291CF633004F5C25 /* Abc.swift */; };
 		3CF7D17D29067E7200604D95 /* TermsOfService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7D17C29067E7200604D95 /* TermsOfService.swift */; };
 		3CF7D17F2908EDD600604D95 /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7D17E2908EDD600604D95 /* PrivacyPolicy.swift */; };
+		3CF95BDA291A49E900C06698 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF95BD9291A49E900C06698 /* ResultViewController.swift */; };
+		3CF95BDC291BA05800C06698 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF95BDB291BA05800C06698 /* CollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -882,8 +886,12 @@
 		15BFA8A928D2B03E00A50FD0 /* SocialNetworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15DABE3028D709E600828562 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		3C403B492902652E0024CDD2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3C635094291A3C5F00296FE0 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		3CA1AF81291CF633004F5C25 /* Abc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abc.swift; sourceTree = "<group>"; };
 		3CF7D17C29067E7200604D95 /* TermsOfService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfService.swift; sourceTree = "<group>"; };
 		3CF7D17E2908EDD600604D95 /* PrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy.swift; sourceTree = "<group>"; };
+		3CF95BD9291A49E900C06698 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		3CF95BDB291BA05800C06698 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2568,9 +2576,11 @@
 				15BFA88328D2B03900A50FD0 /* AppDelegate.swift */,
 				15BFA88528D2B03900A50FD0 /* SceneDelegate.swift */,
 				15BFA88728D2B03900A50FD0 /* ViewController.swift */,
+				3CF95BDD291BA06400C06698 /* ログイン */,
+				3CF95BDB291BA05800C06698 /* CollectionView.swift */,
 				15BFA88928D2B03900A50FD0 /* Main.storyboard */,
-				3CF7D17C29067E7200604D95 /* TermsOfService.swift */,
-				3CF7D17E2908EDD600604D95 /* PrivacyPolicy.swift */,
+				3CA1AF81291CF633004F5C25 /* Abc.swift */,
+				3C635093291A3C3400296FE0 /* プライバシーポリシー・利用規約 */,
 				15BFA88F28D2B03E00A50FD0 /* Assets.xcassets */,
 				15BFA89128D2B03E00A50FD0 /* LaunchScreen.storyboard */,
 				15BFA89428D2B03E00A50FD0 /* Info.plist */,
@@ -2610,6 +2620,26 @@
 				3C403B492902652E0024CDD2 /* WebKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C635093291A3C3400296FE0 /* プライバシーポリシー・利用規約 */ = {
+			isa = PBXGroup;
+			children = (
+				3CF7D17C29067E7200604D95 /* TermsOfService.swift */,
+				3CF7D17E2908EDD600604D95 /* PrivacyPolicy.swift */,
+			);
+			name = "プライバシーポリシー・利用規約";
+			path = "プライバシーポリシー";
+			sourceTree = "<group>";
+		};
+		3CF95BDD291BA06400C06698 /* ログイン */ = {
+			isa = PBXGroup;
+			children = (
+				3C635094291A3C5F00296FE0 /* SignUp.swift */,
+				3CF95BD9291A49E900C06698 /* ResultViewController.swift */,
+			);
+			name = "ログイン";
+			path = "ログイン";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2748,6 +2778,7 @@
 				15B7EB8A28F2E20300F9F97C /* SmilList.swift in Sources */,
 				15B7EB2428F2E20300F9F97C /* TelGet.swift in Sources */,
 				15B7EBA228F2E20300F9F97C /* RmemberListMember.swift in Sources */,
+				3CF95BDA291A49E900C06698 /* ResultViewController.swift in Sources */,
 				15BFA88828D2B03900A50FD0 /* ViewController.swift in Sources */,
 				15B7EBA328F2E20300F9F97C /* BbsReceivedMailList.swift in Sources */,
 				15B7ECC628F2E28700F9F97C /* TalkDeleteResultData.swift in Sources */,
@@ -2832,6 +2863,7 @@
 				15B7EB4328F2E20300F9F97C /* ProfileSerch.swift in Sources */,
 				15B7ED6628F2E28800F9F97C /* SmilListData.swift in Sources */,
 				15B7EB6D28F2E20300F9F97C /* TalkSearchtMasseageId.swift in Sources */,
+				3CF95BDC291BA05800C06698 /* CollectionView.swift in Sources */,
 				15B7EAFC28F2E20300F9F97C /* PushListList.swift in Sources */,
 				15B7ECFF28F2E28800F9F97C /* BbsDetallPhotoData.swift in Sources */,
 				15B7EBA428F2E20300F9F97C /* MemberPhotos.swift in Sources */,
@@ -2840,6 +2872,7 @@
 				15B7EB7628F2E20300F9F97C /* BbsDetallPhoto.swift in Sources */,
 				15B7ED1228F2E28800F9F97C /* MailSendData.swift in Sources */,
 				15B7ED5028F2E28800F9F97C /* InformationErrorsData.swift in Sources */,
+				3C635095291A3C5F00296FE0 /* SignUp.swift in Sources */,
 				15B7EB1D28F2E20300F9F97C /* ProfileDetallListBbsPure.swift in Sources */,
 				15B7EB8F28F2E20300F9F97C /* BbsArea.swift in Sources */,
 				15B7EB4828F2E20300F9F97C /* MailBoxMemberPhotoUrls.swift in Sources */,
@@ -3023,6 +3056,7 @@
 				15B7EAF828F2E20300F9F97C /* ProfileDeleteMyTypeRanking.swift in Sources */,
 				15B7EB6C28F2E20300F9F97C /* TalkSearcht.swift in Sources */,
 				15B7ECDC28F2E28700F9F97C /* ProfileDeleteBbsAlertCheckData.swift in Sources */,
+				3CA1AF82291CF633004F5C25 /* Abc.swift in Sources */,
 				15B7EB9728F2E20300F9F97C /* NotificationListNotification.swift in Sources */,
 				15B7EB7028F2E20300F9F97C /* TalkSearchtFile.swift in Sources */,
 				15B7EB6628F2E20300F9F97C /* ProfileDetailPhptoContest.swift in Sources */,
