@@ -239,53 +239,53 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
         
-    func AbuseAPI(){
-        // APIをたたく
-        URLSession.shared.dataTask(with:urlAbuseAPI
-                           , completionHandler: { (data, response, error) in
-            // エラーがあるかどうかチェック
-            if let error = error {
-                print("レスポンスエラー: \(error.localizedDescription)")
-                return
-                
-            }
-            // データが空かどうかチェック
-            guard let data = data, let response = response as? HTTPURLResponse else {
-                print("レスポンスのデータが空です")
-                return
-                
-            }
-            // データの抽出
-            if response.statusCode == 200 {
-                do {
-                    // 受け取ったデータをiPhoneで扱える形に変換する
-                    let abuse: Abuse = try JSONDecoder().decode(Abuse.self, from: data)
-                    abuse.abuse
-                
-                    print("OK")
-                    // 画面描画スレッド
-                    DispatchQueue.main.sync {
-                        // レスポンスのデータをリストに更新する
-                        //self.tableView.reloadData()
-                       
-                        // ローディングを停止 ( storyboardでの設定によりアニメーションを停止させると自動的に非表示になる )
-                        //self.loadingView.stopAnimating()
-                        
-                    }
-                    
-                } catch {
-                    print("デコードエラー")
-                    
-                }
-                
-            } else {
-                print("サーバー・エラー・ステータスコード: \(response.statusCode)")
-                
-            }
-            
-        }).resume()
-        
-    }
+//    func AbuseAPI(){
+//        // APIをたたく
+//        URLSession.shared.dataTask(with:urlAbuseAPI
+//                           , completionHandler: { (data, response, error) in
+//            // エラーがあるかどうかチェック
+//            if let error = error {
+//                print("レスポンスエラー: \(error.localizedDescription)")
+//                return
+//
+//            }
+//            // データが空かどうかチェック
+//            guard let data = data, let response = response as? HTTPURLResponse else {
+//                print("レスポンスのデータが空です")
+//                return
+//
+//            }
+//            // データの抽出
+//            if response.statusCode == 200 {
+//                do {
+//                    // 受け取ったデータをiPhoneで扱える形に変換する
+//                    let abuse: Abuse = try JSONDecoder().decode(Abuse.self, from: data)
+//                    abuse.abuse
+//
+//                    print("OK")
+//                    // 画面描画スレッド
+//                    DispatchQueue.main.sync {
+//                        // レスポンスのデータをリストに更新する
+//                        //self.tableView.reloadData()
+//
+//                        // ローディングを停止 ( storyboardでの設定によりアニメーションを停止させると自動的に非表示になる )
+//                        //self.loadingView.stopAnimating()
+//
+//                    }
+//
+//                } catch {
+//                    print("デコードエラー")
+//
+//                }
+//
+//            } else {
+//                print("サーバー・エラー・ステータスコード: \(response.statusCode)")
+//
+//            }
+//
+//        }).resume()
+//
+//    }
     
     func AppVersionAPI(){
         // APIをたたく
@@ -2990,53 +2990,53 @@ class ViewController: UIViewController {
         
     }
     
-    func BbsHistoryAPI(){
-        // APIをたたく
-        URLSession.shared.dataTask(with:urlBbsHistoryAPI
-                           , completionHandler: { (data, response, error) in
-            // エラーがあるかどうかチェック
-            if let error = error {
-                print("レスポンスエラー: \(error.localizedDescription)")
-                return
-                
-            }
-            // データが空かどうかチェック
-            guard let data = data, let response = response as? HTTPURLResponse else {
-                print("レスポンスのデータが空です")
-                return
-                
-            }
-            // データの抽出
-            if response.statusCode == 200 {
-                do {
-                    // 受け取ったデータをiPhoneで扱える形に変換する
-                    let bbsHistory: BbsHistory = try JSONDecoder().decode(BbsHistory.self, from: data)
-                    bbsHistory.result
-                    
-                    print("OK")
-                    // 画面描画スレッド
-                    DispatchQueue.main.sync {
-                        // レスポンスのデータをリストに更新する
-                        //self.tableView.reloadData()
-                       
-                        // ローディングを停止 ( storyboardでの設定によりアニメーションを停止させると自動的に非表示になる )
-                        //self.loadingView.stopAnimating()
-                        
-                    }
-                    
-                } catch {
-                    print("デコードエラー")
-                    
-                }
-                
-            } else {
-                print("サーバー・エラー・ステータスコード: \(response.statusCode)")
-                
-            }
-            
-        }).resume()
-        
-    }
+//    func BbsHistoryAPI(){
+//        // APIをたたく
+//        URLSession.shared.dataTask(with:urlBbsHistoryAPI
+//                           , completionHandler: { (data, response, error) in
+//            // エラーがあるかどうかチェック
+//            if let error = error {
+//                print("レスポンスエラー: \(error.localizedDescription)")
+//                return
+//                
+//            }
+//            // データが空かどうかチェック
+//            guard let data = data, let response = response as? HTTPURLResponse else {
+//                print("レスポンスのデータが空です")
+//                return
+//                
+//            }
+//            // データの抽出
+//            if response.statusCode == 200 {
+//                do {
+//                    // 受け取ったデータをiPhoneで扱える形に変換する
+//                    let bbsHistory: BbsHistory = try JSONDecoder().decode(BbsHistory.self, from: data)
+//                    bbsHistory.result
+//                    
+//                    print("OK")
+//                    // 画面描画スレッド
+//                    DispatchQueue.main.sync {
+//                        // レスポンスのデータをリストに更新する
+//                        //self.tableView.reloadData()
+//                       
+//                        // ローディングを停止 ( storyboardでの設定によりアニメーションを停止させると自動的に非表示になる )
+//                        //self.loadingView.stopAnimating()
+//                        
+//                    }
+//                    
+//                } catch {
+//                    print("デコードエラー")
+//                    
+//                }
+//                
+//            } else {
+//                print("サーバー・エラー・ステータスコード: \(response.statusCode)")
+//                
+//            }
+//            
+//        }).resume()
+//        
+//    }
     
     func BbsSearchAPI(){
         // APIをたたく

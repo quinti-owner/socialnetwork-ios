@@ -8,6 +8,6 @@
 import Foundation
 
 struct BbsHistory: Codable {
-    var result: [BbsHistoryStatus]
+//    var result: [BbsHistoryStatus]
     
 }
