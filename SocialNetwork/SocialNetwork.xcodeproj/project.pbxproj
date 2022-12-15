@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1508804E2949B02C00C6C256 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1508804D2949B02C00C6C256 /* Main.swift */; };
 		154CA2F92949AB450091BAE4 /* SocialNetworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA2F82949AB450091BAE4 /* SocialNetworkApp.swift */; };
 		154CA2FB2949AB450091BAE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA2FA2949AB450091BAE4 /* ContentView.swift */; };
 		154CA2FD2949AB470091BAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154CA2FC2949AB470091BAE4 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1508804D2949B02C00C6C256 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		154CA2F52949AB450091BAE4 /* SocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		154CA2F82949AB450091BAE4 /* SocialNetworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkApp.swift; sourceTree = "<group>"; };
 		154CA2FA2949AB450091BAE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				154CA3062949AB470091BAE4 /* Info.plist */,
 				154CA3032949AB470091BAE4 /* SocialNetwork.xcdatamodeld */,
 				154CA2FE2949AB470091BAE4 /* Preview Content */,
+				1508804D2949B02C00C6C256 /* Main.swift */,
 			);
 			path = SocialNetwork;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1508804E2949B02C00C6C256 /* Main.swift in Sources */,
 				154CA3022949AB470091BAE4 /* Persistence.swift in Sources */,
 				154CA2FB2949AB450091BAE4 /* ContentView.swift in Sources */,
 				154CA2F92949AB450091BAE4 /* SocialNetworkApp.swift in Sources */,

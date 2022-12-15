@@ -13,8 +13,10 @@ struct SocialNetworkApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            Main()
+            // CoreDataが入った画面を一番最初に表示する場合
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
