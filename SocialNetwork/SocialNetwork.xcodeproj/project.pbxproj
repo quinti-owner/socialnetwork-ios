@@ -17,6 +17,9 @@
 		154CA3102949AB470091BAE4 /* SocialNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA30F2949AB470091BAE4 /* SocialNetworkTests.swift */; };
 		154CA31A2949AB470091BAE4 /* SocialNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA3192949AB470091BAE4 /* SocialNetworkUITests.swift */; };
 		154CA31C2949AB470091BAE4 /* SocialNetworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA31B2949AB470091BAE4 /* SocialNetworkUITestsLaunchTests.swift */; };
+		3C0D7161294AFA28008054E8 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D7160294AFA28008054E8 /* StartView.swift */; };
+		3C0D7163294AFAD8008054E8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D7162294AFAD8008054E8 /* LoginView.swift */; };
+		3C0D7165294B07ED008054E8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D7164294B07ED008054E8 /* RegisterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		154CA3152949AB470091BAE4 /* SocialNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		154CA3192949AB470091BAE4 /* SocialNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITests.swift; sourceTree = "<group>"; };
 		154CA31B2949AB470091BAE4 /* SocialNetworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C0D7160294AFA28008054E8 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		3C0D7162294AFAD8008054E8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3C0D7164294B07ED008054E8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 			children = (
 				154CA2F82949AB450091BAE4 /* SocialNetworkApp.swift */,
 				154CA2FA2949AB450091BAE4 /* ContentView.swift */,
+				3C0D7160294AFA28008054E8 /* StartView.swift */,
+				3C0D7162294AFAD8008054E8 /* LoginView.swift */,
+				3C0D7164294B07ED008054E8 /* RegisterView.swift */,
 				154CA2FC2949AB470091BAE4 /* Assets.xcassets */,
 				154CA3012949AB470091BAE4 /* Persistence.swift */,
 				154CA3062949AB470091BAE4 /* Info.plist */,
@@ -269,9 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1508804E2949B02C00C6C256 /* Main.swift in Sources */,
+				3C0D7163294AFAD8008054E8 /* LoginView.swift in Sources */,
 				154CA3022949AB470091BAE4 /* Persistence.swift in Sources */,
 				154CA2FB2949AB450091BAE4 /* ContentView.swift in Sources */,
 				154CA2F92949AB450091BAE4 /* SocialNetworkApp.swift in Sources */,
+				3C0D7165294B07ED008054E8 /* RegisterView.swift in Sources */,
+				3C0D7161294AFA28008054E8 /* StartView.swift in Sources */,
 				154CA3052949AB470091BAE4 /* SocialNetwork.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

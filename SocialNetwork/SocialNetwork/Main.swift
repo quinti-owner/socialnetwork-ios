@@ -11,7 +11,7 @@ struct Main: View {
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink(destination: ContentView().navigationTitle("Introduction画面").navigationBarTitleDisplayMode(.inline)) {
+                NavigationLink(destination: StartView().navigationTitle("Introduction画面").navigationBarTitleDisplayMode(.inline)) {
                     Text("Introduction画面")
                         .frame(width: 200, height: 50)
                         .background(.gray)
