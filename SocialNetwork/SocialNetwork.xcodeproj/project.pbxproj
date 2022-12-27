@@ -18,6 +18,9 @@
 		154CA31A2949AB470091BAE4 /* SocialNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA3192949AB470091BAE4 /* SocialNetworkUITests.swift */; };
 		154CA31C2949AB470091BAE4 /* SocialNetworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA31B2949AB470091BAE4 /* SocialNetworkUITestsLaunchTests.swift */; };
 		15CEFDD92956F12300109B0C /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEFDD82956F12300109B0C /* Log.swift */; };
+		15CEFDDC2956F56D00109B0C /* AccessTokenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEFDDB2956F56D00109B0C /* AccessTokenRepository.swift */; };
+		15CEFDDE2956F5A200109B0C /* RefreshTokenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEFDDD2956F5A200109B0C /* RefreshTokenRepository.swift */; };
+		15CEFDE02956F5D500109B0C /* SecretsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEFDDF2956F5D500109B0C /* SecretsRepository.swift */; };
 		3C0D7161294AFA28008054E8 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D7160294AFA28008054E8 /* StartView.swift */; };
 		3C0D7163294AFAD8008054E8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D7162294AFAD8008054E8 /* LoginView.swift */; };
 		3C0D7165294B07ED008054E8 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0D7164294B07ED008054E8 /* RegisterView.swift */; };
@@ -56,6 +59,9 @@
 		154CA3192949AB470091BAE4 /* SocialNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITests.swift; sourceTree = "<group>"; };
 		154CA31B2949AB470091BAE4 /* SocialNetworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		15CEFDD82956F12300109B0C /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		15CEFDDB2956F56D00109B0C /* AccessTokenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenRepository.swift; sourceTree = "<group>"; };
+		15CEFDDD2956F5A200109B0C /* RefreshTokenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenRepository.swift; sourceTree = "<group>"; };
+		15CEFDDF2956F5D500109B0C /* SecretsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretsRepository.swift; sourceTree = "<group>"; };
 		3C0D7160294AFA28008054E8 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		3C0D7162294AFAD8008054E8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3C0D7164294B07ED008054E8 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -153,6 +159,7 @@
 		15CEFDD62956F0C800109B0C /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				15CEFDDA2956F53900109B0C /* repository */,
 				15CEFDD72956F0F100109B0C /* common */,
 			);
 			path = lib;
@@ -164,6 +171,16 @@
 				15CEFDD82956F12300109B0C /* Log.swift */,
 			);
 			path = common;
+			sourceTree = "<group>";
+		};
+		15CEFDDA2956F53900109B0C /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				15CEFDDB2956F56D00109B0C /* AccessTokenRepository.swift */,
+				15CEFDDD2956F5A200109B0C /* RefreshTokenRepository.swift */,
+				15CEFDDF2956F5D500109B0C /* SecretsRepository.swift */,
+			);
+			path = repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +316,11 @@
 				1508804E2949B02C00C6C256 /* Main.swift in Sources */,
 				3C0D7163294AFAD8008054E8 /* LoginView.swift in Sources */,
 				15CEFDD92956F12300109B0C /* Log.swift in Sources */,
+				15CEFDE02956F5D500109B0C /* SecretsRepository.swift in Sources */,
 				154CA3022949AB470091BAE4 /* Persistence.swift in Sources */,
+				15CEFDDE2956F5A200109B0C /* RefreshTokenRepository.swift in Sources */,
 				154CA2FB2949AB450091BAE4 /* ContentView.swift in Sources */,
+				15CEFDDC2956F56D00109B0C /* AccessTokenRepository.swift in Sources */,
 				154CA2F92949AB450091BAE4 /* SocialNetworkApp.swift in Sources */,
 				3C0D7165294B07ED008054E8 /* RegisterView.swift in Sources */,
 				3C0D7161294AFA28008054E8 /* StartView.swift in Sources */,
