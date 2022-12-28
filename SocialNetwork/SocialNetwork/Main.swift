@@ -117,6 +117,20 @@ struct Main: View {
                             .foregroundColor(.black)
                             .cornerRadius(10.0)
                     })
+                    NavigationLink(destination: PrivacyPolicyTermsServiceView(webSite: .termsService)) {
+                        Text("利用規約画面")
+                            .frame(width: 200, height: 50)
+                            .background(.gray)
+                            .foregroundColor(.black)
+                            .cornerRadius(10.0)
+                    }
+                    NavigationLink(destination: PrivacyPolicyTermsServiceView(webSite: .privacyPolicy)) {
+                        Text("プライバシーポリシー画面")
+                            .frame(width: 200, height: 50)
+                            .background(.gray)
+                            .foregroundColor(.black)
+                            .cornerRadius(10.0)
+                    }
                 }
         }
         .navigationTitle("デバッグ画面")
