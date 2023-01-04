@@ -17,8 +17,12 @@
 		154CA3102949AB470091BAE4 /* SocialNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA30F2949AB470091BAE4 /* SocialNetworkTests.swift */; };
 		154CA31A2949AB470091BAE4 /* SocialNetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA3192949AB470091BAE4 /* SocialNetworkUITests.swift */; };
 		154CA31C2949AB470091BAE4 /* SocialNetworkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154CA31B2949AB470091BAE4 /* SocialNetworkUITestsLaunchTests.swift */; };
+		1561DA0A29641C050001763E /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1561DA0929641C050001763E /* ColorUtil.swift */; };
 		15A056C9295BE0D800ADAABB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A056C8295BE0D800ADAABB /* WebView.swift */; };
 		15A056CC295BE22E00ADAABB /* PrivacyPolicyTermsServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A056CB295BE22E00ADAABB /* PrivacyPolicyTermsServiceView.swift */; };
+		15A056D0295C243800ADAABB /* SecureTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A056CF295C243800ADAABB /* SecureTextField.swift */; };
+		15A056D2295C32E700ADAABB /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A056D1295C32E700ADAABB /* Template.swift */; };
+		15BB37BF295D2EB800B8399E /* ValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BB37BE295D2EB800B8399E /* ValidationUtil.swift */; };
 		15CEFDD92956F12300109B0C /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEFDD82956F12300109B0C /* Log.swift */; };
 		15CEFDDC2956F56D00109B0C /* AccessTokenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEFDDB2956F56D00109B0C /* AccessTokenRepository.swift */; };
 		15CEFDDE2956F5A200109B0C /* RefreshTokenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CEFDDD2956F5A200109B0C /* RefreshTokenRepository.swift */; };
@@ -60,8 +64,12 @@
 		154CA3152949AB470091BAE4 /* SocialNetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialNetworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		154CA3192949AB470091BAE4 /* SocialNetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITests.swift; sourceTree = "<group>"; };
 		154CA31B2949AB470091BAE4 /* SocialNetworkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialNetworkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1561DA0929641C050001763E /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		15A056C8295BE0D800ADAABB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		15A056CB295BE22E00ADAABB /* PrivacyPolicyTermsServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyTermsServiceView.swift; sourceTree = "<group>"; };
+		15A056CF295C243800ADAABB /* SecureTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureTextField.swift; sourceTree = "<group>"; };
+		15A056D1295C32E700ADAABB /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		15BB37BE295D2EB800B8399E /* ValidationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtil.swift; sourceTree = "<group>"; };
 		15CEFDD82956F12300109B0C /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		15CEFDDB2956F56D00109B0C /* AccessTokenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenRepository.swift; sourceTree = "<group>"; };
 		15CEFDDD2956F5A200109B0C /* RefreshTokenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenRepository.swift; sourceTree = "<group>"; };
@@ -119,19 +127,20 @@
 		154CA2F72949AB450091BAE4 /* SocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				15BB2D2D2963C34A00794F45 /* parts */,
+				15BB37BD295D2E8200B8399E /* util */,
 				15A056C2295BD5EC00ADAABB /*  view */,
 				15CEFDD62956F0C800109B0C /* lib */,
 				154CA2F82949AB450091BAE4 /* SocialNetworkApp.swift */,
 				154CA2FA2949AB450091BAE4 /* ContentView.swift */,
 				3C0D7160294AFA28008054E8 /* StartView.swift */,
-				3C0D7162294AFAD8008054E8 /* LoginView.swift */,
-				3C0D7164294B07ED008054E8 /* RegisterView.swift */,
 				154CA2FC2949AB470091BAE4 /* Assets.xcassets */,
 				154CA3012949AB470091BAE4 /* Persistence.swift */,
 				154CA3062949AB470091BAE4 /* Info.plist */,
 				154CA3032949AB470091BAE4 /* SocialNetwork.xcdatamodeld */,
 				154CA2FE2949AB470091BAE4 /* Preview Content */,
 				1508804D2949B02C00C6C256 /* Main.swift */,
+				15A056D1295C32E700ADAABB /* Template.swift */,
 			);
 			path = SocialNetwork;
 			sourceTree = "<group>";
@@ -164,18 +173,29 @@
 		15A056C2295BD5EC00ADAABB /*  view */ = {
 			isa = PBXGroup;
 			children = (
-				15A056CA295BE0DE00ADAABB /* component */,
 				15A056CB295BE22E00ADAABB /* PrivacyPolicyTermsServiceView.swift */,
+				3C0D7162294AFAD8008054E8 /* LoginView.swift */,
+				3C0D7164294B07ED008054E8 /* RegisterView.swift */,
 			);
 			path = " view";
 			sourceTree = "<group>";
 		};
-		15A056CA295BE0DE00ADAABB /* component */ = {
+		15BB2D2D2963C34A00794F45 /* parts */ = {
 			isa = PBXGroup;
 			children = (
 				15A056C8295BE0D800ADAABB /* WebView.swift */,
+				15A056CF295C243800ADAABB /* SecureTextField.swift */,
 			);
-			path = component;
+			path = parts;
+			sourceTree = "<group>";
+		};
+		15BB37BD295D2E8200B8399E /* util */ = {
+			isa = PBXGroup;
+			children = (
+				15BB37BE295D2EB800B8399E /* ValidationUtil.swift */,
+				1561DA0929641C050001763E /* ColorUtil.swift */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 		15CEFDD62956F0C800109B0C /* lib */ = {
@@ -336,11 +356,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1508804E2949B02C00C6C256 /* Main.swift in Sources */,
+				15BB37BF295D2EB800B8399E /* ValidationUtil.swift in Sources */,
 				15A056CC295BE22E00ADAABB /* PrivacyPolicyTermsServiceView.swift in Sources */,
 				3C0D7163294AFAD8008054E8 /* LoginView.swift in Sources */,
 				15CEFDD92956F12300109B0C /* Log.swift in Sources */,
 				15CEFDE02956F5D500109B0C /* SecretsRepository.swift in Sources */,
+				15A056D2295C32E700ADAABB /* Template.swift in Sources */,
 				154CA3022949AB470091BAE4 /* Persistence.swift in Sources */,
+				15A056D0295C243800ADAABB /* SecureTextField.swift in Sources */,
+				1561DA0A29641C050001763E /* ColorUtil.swift in Sources */,
 				15CEFDDE2956F5A200109B0C /* RefreshTokenRepository.swift in Sources */,
 				154CA2FB2949AB450091BAE4 /* ContentView.swift in Sources */,
 				15CEFDDC2956F56D00109B0C /* AccessTokenRepository.swift in Sources */,

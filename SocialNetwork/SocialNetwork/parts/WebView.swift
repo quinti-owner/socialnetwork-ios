@@ -24,3 +24,9 @@ struct WebView: UIViewRepresentable {
         uiView.load(request)
     }
 }
+
+struct WebView_Previews: PreviewProvider {
+    static var previews: some View {
+        WebView(url: "https://www.yahoo.co.jp/")
+    }
+}
